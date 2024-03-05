@@ -91,6 +91,10 @@ nav ul li a:hover {
   text-align: center;
   color: rgb(217, 130, 8);
 }
+.profil{
+  position: relative;
+  bottom: 150px;
+}
 
 .Home p {
   font-family: monospace;
@@ -206,33 +210,4 @@ nav ul li a:hover {
 
 .social-icons a:hover {
   color: bisque;
-}
-
-/* Media query untuk tampilan mobile (iPhone terbaru) */
-@media only screen and (max-width: 768px) {
-  .menu {
-    float: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px; /* Atur margin sesuai kebutuhan */
-  }
-
-  nav {
-    max-height: 200px; /* Atur ketinggian maksimum navbar */
-    overflow-y: auto; /* Tambahkan scroll jika konten melebihi ketinggian maksimum */
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul li {
-    margin: 10px 0; /* Atur margin antara setiap item menu */
-  }
-
-  .menu-toggle {
-    display: none; /* Sembunyikan toggle menu pada tampilan mobile */
-  }
 }
