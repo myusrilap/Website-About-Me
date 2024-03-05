@@ -230,3 +230,21 @@ nav ul li a:hover {
 .social-icons a:hover {
   color: bisque;
 }
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none; /* Menghilangkan logo */
+  }
+
+  .menu {
+    float: none; /* Mengatur menu agar tidak mengapung */
+    text-align: center; /* Mengatur posisi menu menjadi tengah */
+  }
+
+  nav ul {
+    flex-direction: column; /* Mengatur agar menu ditampilkan dalam satu kolom */
+  }
+
+  nav ul li {
+    margin: 10px 0; /* Mengurangi margin antar menu */
+  }
+}
