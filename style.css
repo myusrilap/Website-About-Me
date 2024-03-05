@@ -209,25 +209,25 @@ nav ul li a:hover {
 }
 
 /* Media query untuk tampilan mobile (iPhone terbaru) */
-@media (max-width: 428px) {
+@media only screen and (max-width: 768px) {
   .menu {
-    display: none;
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Atur margin sesuai kebutuhan */
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   nav ul li {
-    margin: 0 5px; /* Sesuaikan dengan ukuran yang diinginkan */
+    margin: 10px 0; /* Atur margin antara setiap item menu */
   }
 
-  .welcome p {
-    font-size: 24px;
-  }
-
-  nav {
-    padding: 10px;
-  }
-
-  .logo a {
-    font-size: 24px;
-    margin-left: 10px;
+  .menu-toggle {
+    display: none; /* Sembunyikan toggle menu pada tampilan mobile */
   }
 }
