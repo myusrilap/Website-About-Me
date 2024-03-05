@@ -69,17 +69,36 @@ nav ul li a:hover {
   padding: 20px;
 }
 
-.Home,
-.aboutme,
-.education,
-.skills,
-.Achievement {
-  height: auto;
+.Home{
+  min-height: 450px;
   padding: 20px;
   background: #000220;
   color: whitesmoke;
 }
-
+.aboutme{
+  min-height: 600px;
+  padding: 20px;
+  background: #000220;
+  color: whitesmoke;
+}
+.education{
+  min-height: 500px;
+  padding: 20px;
+  background: #000220;
+  color: whitesmoke;
+}
+.skills{
+  min-height: 600px;
+  padding: 20px;
+  background: #000220;
+  color: whitesmoke;
+}
+.Achievement {
+  min-height: auto;
+  padding: 20px;
+  background: #000220;
+  color: whitesmoke;
+}
 .Home h1,
 .aboutme h1,
 .education h1,
