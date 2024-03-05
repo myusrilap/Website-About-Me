@@ -217,6 +217,11 @@ nav ul li a:hover {
     margin-top: 10px; /* Atur margin sesuai kebutuhan */
   }
 
+  nav {
+    max-height: 200px; /* Atur ketinggian maksimum navbar */
+    overflow-y: auto; /* Tambahkan scroll jika konten melebihi ketinggian maksimum */
+  }
+
   nav ul {
     display: flex;
     flex-direction: column;
