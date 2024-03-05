@@ -207,3 +207,28 @@ nav ul li a:hover {
 .social-icons a:hover {
   color: bisque;
 }
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  nav ul li {
+    margin: 0 10px; 
+  }
+
+  .welcome p {
+    font-size: 24px; 
+  }
+
+
+  nav {
+    padding: 10px;
+  }
+
+
+  .logo a {
+    font-size: 24px; 
+    margin-left: 10px; 
+  }
+}
