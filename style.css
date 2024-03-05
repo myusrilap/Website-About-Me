@@ -208,27 +208,26 @@ nav ul li a:hover {
   color: bisque;
 }
 
-@media (max-width: 768px) {
+/* Media query untuk tampilan mobile (iPhone terbaru) */
+@media (max-width: 428px) {
   .menu {
     display: none;
   }
 
   nav ul li {
-    margin: 0 10px; 
+    margin: 0 5px; /* Sesuaikan dengan ukuran yang diinginkan */
   }
 
   .welcome p {
-    font-size: 24px; 
+    font-size: 24px;
   }
-
 
   nav {
     padding: 10px;
   }
 
-
   .logo a {
-    font-size: 24px; 
-    margin-left: 10px; 
+    font-size: 24px;
+    margin-left: 10px;
   }
 }
