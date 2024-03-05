@@ -1,0 +1,209 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: black;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: whitesmoke;
+  z-index: 9999;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px; /* Update */
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+  text-align: center;
+  padding: 20px;
+}
+
+.Home,
+.aboutme,
+.education,
+.skills,
+.Achievement {
+  height: auto;
+  padding: 20px;
+  background: #000220;
+  color: whitesmoke;
+}
+
+.Home h1,
+.aboutme h1,
+.education h1,
+.skills h1,
+.Achievement h1 {
+  font-family: monospace;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(217, 130, 8);
+}
+
+.Home p {
+  font-family: monospace;
+  font-size: 30px;
+  font-style: bold;
+  margin-top: 20px;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  animation: typing 3s steps(40, end) infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+.aboutme img {
+  max-width: 100%;
+  max-height: fit-content;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px; /* Update */
+}
+
+.aboutme .saya,
+.aboutme .biodata {
+  text-align: center;
+  font-family: monospace;
+  font-size: larger;
+}
+
+.aboutme h2 {
+  font-size: 40px; /* Update */
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: rgb(217, 130, 8);
+  font-family: monospace;
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.education-table th,
+.education-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.education-table th {
+  background-color: #e0e0e0;
+  color: black;
+  font-weight: bold;
+}
+
+.skill {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.skill p {
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: rgb(217, 130, 8);
+}
+
+.Achievement ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.Achievement li {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-style: bold;
+  font-family: monospace;
+}
+
+.Achievement li:before {
+  content: "•";
+  color: rgb(217, 130, 8);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.social-icons {
+  position: relative;
+  font-size: 50px;
+  color: violet;
+}
+
+.social-icons a:hover {
+  color: bisque;
+}
