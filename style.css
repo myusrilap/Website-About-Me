@@ -253,6 +253,6 @@ nav ul li a:hover {
     display: block; 
   }
   .welcome h1{
-    font-size: 20px;
+    font-size: 20 px !important;
   }
 }
