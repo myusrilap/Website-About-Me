@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 20px; /* Update */
+  margin: 0 20px; 
 }
 
 nav ul li a {
@@ -58,6 +58,8 @@ nav ul li a {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  position: relative;
+  top: 7px;
 }
 
 nav ul li a:hover {
@@ -230,21 +232,27 @@ nav ul li a:hover {
 .social-icons a:hover {
   color: bisque;
 }
+
+.burger-icon {
+  display: none; 
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+}
 @media only screen and (max-width: 600px) {
-  .logo {
-    display: none; /* Menghilangkan logo */
-  }
-
   .menu {
-    float: none; /* Mengatur menu agar tidak mengapung */
-    text-align: center; /* Mengatur posisi menu menjadi tengah */
+    display: flex;
+    flex-direction: column; 
   }
 
-  nav ul {
-    flex-direction: column; /* Mengatur agar menu ditampilkan dalam satu kolom */
+  .menu ul {
+    display: none; 
   }
 
-  nav ul li {
-    margin: 10px 0; /* Mengurangi margin antar menu */
+  .burger-icon {
+    display: block; 
+  }
+  .welcome h1{
+    font-size: 20px;
   }
 }
