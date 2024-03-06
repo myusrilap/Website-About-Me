@@ -252,7 +252,7 @@ nav ul li a:hover {
   .burger-icon {
     display: block; 
   }
-  .welcome h1{
-    font-size: 20 px !important;
+  .Home p{
+    font-size: 10 px;
   }
 }
